@@ -14,7 +14,7 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: 425px) {
+@media only screen and (max-width: 425px) {
   .body .fd2{
     font-size: 2rem;
     align-items: center;
@@ -29,6 +29,7 @@
   }
   .sl .bt{
     width: 16px;
+    height: 16px;
   }
 }
 
