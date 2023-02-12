@@ -107,12 +107,12 @@ body.dark-mode .fd2:before {
   border: 0;
   width: 6rem;
   height: 3rem;
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0);
   float: right;
 }
 .sun{
   color: transparent;
-  position: absolute;
+  position: relative;
 }
 
 body.dark-mode .sun {
