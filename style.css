@@ -48,6 +48,10 @@
     flex-direction: row;
     flex-wrap: nowrap;
   }
+  .bt{
+    width: 15px;
+    height: 15px;
+  }
 }
 
 .body {
