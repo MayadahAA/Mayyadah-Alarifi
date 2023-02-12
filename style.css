@@ -14,7 +14,7 @@
   flex-direction: column;
 }
 .title{
-  font-size: 2em;
+  font-size: 3rem;
 }
 #name{
   font-size: 2rem;
@@ -46,10 +46,16 @@
     flex-wrap: wrap;
     flex-direction: column;
   }
-  .sl .bt{
+  .sl{
     width: 10%;
     flex-direction: row;
     flex-wrap: nowrap;
+  }
+  .title{
+    font-size: 2rem;
+  }
+  .moon .sun {
+    width: 1.5rem;
   }
 }
 
@@ -115,6 +121,7 @@ body.dark-mode .fd2:before {
 .sun{
   color: transparent;
   position: relative;
+  width: 2rem;
 }
 
 body.dark-mode .sun {
@@ -124,6 +131,7 @@ body.dark-mode .sun {
 .moon{
   color: gold;
   position: absolute;
+  width: 2rem;
 }
 
 body.dark-mode .moon {
