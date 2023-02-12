@@ -34,9 +34,7 @@
     font-size: 2.6rem;
     align-items: center;
   }
-  .dark-mode .fd2{
-    font-size: 2.6rem;
-  }
+
   #name {
     font-size: 1.5rem;
   }
@@ -90,9 +88,6 @@ body.dark-mode {
 }  
 body.dark-mode .fd2{
   color: var(--dark-txt);
-  position: relative;
-  padding: 20px 50px;
-  font-size: 5rem;
 }
 body.dark-mode .fd2:before {
   background: var(--dark-txt);
